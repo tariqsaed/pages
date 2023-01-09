@@ -5,50 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <title>PROJECT#A1</title>
+    <title>Home - Tariq Saed</title>
 </head>
 <body>
-
-    <script>const rand = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
-        const enhance = id => {
-          const element = document.getElementById(id),
-                text = element.innerText.split("");
-          
-          element.innerText = "";
-          
-          text.forEach((value, index) => {
-            const outer = document.createElement("span");
-            
-            outer.className = "outer";
-            
-            const inner = document.createElement("span");
-            
-            inner.className = "inner";
-            
-            inner.style.animationDelay = `${rand(-5000, 0)}ms`;
-            
-            const letter = document.createElement("span");
-            
-            letter.className = "letter";
-            
-            letter.innerText = value;
-            
-            letter.style.animationDelay = `${index * 1000 }ms`;
-            
-            inner.appendChild(letter);    
-            
-            outer.appendChild(inner);    
-            
-            element.appendChild(outer);
-          });
-        }
-        
-        enhance("fancy-word1");
-        enhance("fancy-word2");</script>
-
-
-
     <div id="text"><div id="text">
         <div class="line">
           <p class="word">Tariq</p>
